@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: .5em;
 }
 
@@ -58,10 +58,12 @@ p {
 a {
   color: black;
   text-decoration: none;
+  display: flex;
+  padding: 4px;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: green;
 }
 
 @media only screen and (max-width: 1042px) {
